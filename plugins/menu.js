@@ -6,9 +6,25 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let tags = {
     'main': 'Utama',
+    'owner': 'Owner',
     'game': 'Game',
     'rpg': 'Rpg',
+    'pekerjaan': 'Job',
+    'videomaker': 'Video Maker',
+    'image': 'Gambar',
+    'expression': 'Expression',
+    'nime': 'Anime1',
+    'anime': 'Anime2',
+    'hentai': 'Hentai',
+    'maker': 'Maker',
+    'editor': 'Editor',
+    'dewasa': 'Haram',
+    'primbon': 'Primbon',
+    'artinama': 'Arti Nama',
     'jadian': 'Jadian',
+    'convert': 'Convert',
+    'audio': 'Audio Changer',
+    'sound': 'Sound',
     'xp': 'Exp & Limit',
     'sticker': 'Stiker',
     'kerang': 'Kerang Ajaib',
@@ -172,7 +188,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.sendButtonImg(m.chat, await (await fetch(image)).buffer(), text.trim(), '© Tohka Yatogami', 'OWNER TOHKA YATOGAMI', `,owner`, m)
+    await conn.sendButtonImg(m.chat, await (await fetch(image)).buffer(), text.trim(), 'Kyaru-Botz', 'OWNER KYARU-BOTZ', `,owner`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
