@@ -84,17 +84,17 @@ global.rules = `
 
 // Sticker WM
 global.packname = 'By Iyann'
-global.author = 'Tohka Yatogami'
-global.wm = '© Tohka Yatogami' //UBAH JADI NAMAMU
-global.botwm = '© Tohka Yatogami' //UBAH JADI NAMAMU
-global.image = 'https://telegra.ph/file/8498b727d19499438c5c1.jpg'
+global.author = 'Kyaru Botz'
+global.wm = 'Kyaru Botz' //UBAH JADI NAMAMU
+global.botwm = 'Kyaru Botz' //UBAH JADI NAMAMU
+global.image = 'https://telegra.ph/file/78991d66e072235da3e1d.jpg'
 
 global.wait = '_*tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
 global.CanvasAPI = '';
 
-global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
+global.multiplier = 250 // Semakin tinggi, semakin sulit naik level
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
