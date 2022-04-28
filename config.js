@@ -1,6 +1,6 @@
 let fs = require('fs')
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM', 'https://chat.whatsapp.com/CnQV9lNcHuIENb8SQ9CaYP']
+global.linkGC = ['https://chat.whatsapp.com/JhFkMWFRPblHaDcvM9kI4p', '']
 //kalo mau ubah nama owner nya ubah di ../plugins/creator.js
 global.owner = ['6285742344873'] // Letakan nomor kamu disini
 global.mods = ['62895336282144', '6281319944687', '6287878505740', '6283128734012'] // Moderator?
@@ -48,7 +48,7 @@ global.APIKeys = { // APIKey nya disini
 }
 //sosmed owner
 global.yt = 'https://youtube.com/channel/UCVv3wC5Q7_juw-d9HepjpOQ' //UBAH JADI LINK YT LU
-global.ig = `https://instagram.com/the.sad.boy01` //UBAH JADI LINK IG LU
+global.ig = `https://instagram.com/iyanganz` //UBAH JADI LINK IG LU
 
 //donasi
 global.donate = `
@@ -83,11 +83,12 @@ global.rules = `
 └─ *「 RULES BOT」*` //Ubah jadi semau mu
 
 // Sticker WM
-global.packname = 'By Iyann'
-global.author = 'Kyaru Botz'
-global.wm = 'Kyaru Botz' //UBAH JADI NAMAMU
-global.botwm = 'Kyaru Botz' //UBAH JADI NAMAMU
-global.image = 'https://telegra.ph/file/78991d66e072235da3e1d.jpg'
+global.packname = 'BY LIXXZY'
+global.author = 'NIGHT MAPLE'
+global.wm = 'CREATED BY IYAN' //UBAH JADI NAMAMU
+global.botwm = 'CREATED BY IYAN' //UBAH JADI NAMAMU
+global.watermark = 'CREATED BY IYAN'
+global.image = 'https://telegra.ph/file/10998cd550c946107e014.jpg'
 
 global.wait = '_*tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
